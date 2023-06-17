@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Luckiest+Guy&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body{
+    background-color: bisque;
+}
+
+/* Outer Region */
+.form .outer-ring{
+    border: 3px solid #111;
+    border-radius: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: rgb(255, 230, 163);
+    box-shadow: 12px 12px 10px orange;
+}
+.title{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    -webkit-text-stroke: .1px black;
+    color: rgb(255, 225, 56);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+/* Inner Region */
+.form .inner-ring{
+    border: 3px solid #111;
+    border-radius: 20px;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.inner-ring .sub-title{
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Inner Region Details */
+.inner-ring .details{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+}
+.details input.name-inp{
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid orange;
+    border-radius: 2em;
+    font-size: 17px;
+    background-color: #fff;
+    width: 300px;
+    padding: 9px;
+    margin: 8px 0;
+}
+.details input.name-inp::placeholder{
+    opacity: 0.4;
+}
+.details input.mail-inp{
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid orange;
+    border-radius: 2em;
+    font-size: 17px;
+    background: #fff;
+    width: 300px;
+    padding: 9px;
+    margin: 8px 0;
+}
+.details input.mail-inp::placeholder{
+    opacity: 0.4;
+}
+.text-inp{
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid orange;
+    border-radius: 1em;
+    font-size: 17px;
+    background: #fff;
+    width: 652px;
+    height: 18vh;
+    padding: 9px;
+    margin: 8px 0;
+}
+.text-inp::placeholder{
+    opacity: 0.4;
+}
+
+/* Country YOU belong */
+.from{
+    position: relative;
+}
+.country{
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid orange;
+    border-radius: 2em;
+    font-size: 17px;
+    background: #fff;
+    width: 319px;
+    padding: 9px;
+    margin: 8px 0;
+}
+.submit{
+    position: relative;
+    left: 69%;
+    width: 100px;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    color: #000;
+    margin: 12px 0px 5px 0px;
+    border-radius: 12px;
+    border: 2px solid orange;
+    background: rgb(255, 255, 177);
+    transition: all .3s ease;
+}
+.submit:hover{
+    background-color: orange;
+    color: ghostwhite;
+}
+.reset{
+    position: relative;
+    left: 3%;
+    width: 100px;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    color: #000;
+    margin: 12px 0px 5px 0px;
+    border-radius: 12px;
+    border: 2px solid orange;
+    background: rgb(255, 255, 177);
+    transition: all .2s ease;
+}
+.reset:hover{
+    background-color: orange;
+    color: ghostwhite;
+}
+
+/* Copy-right Text */
+.copyRight{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+/* Media Querry */
+@media (max-width: 1024px) {
+    /* Outer Region */
+    .form .outer-ring{
+        max-width: 500px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    /* Inner Region */
+    .form .inner-ring{
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .submit{
+        height: 8vh;
+    }
+    .reset{
+        height: 8vh;
+    }
+}
