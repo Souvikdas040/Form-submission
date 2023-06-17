@@ -19,7 +19,7 @@ body{
 .title{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    -webkit-text-stroke: .1px black;
+    -webkit-text-stroke: 1px black;
     color: rgb(255, 225, 56);
 }
 
